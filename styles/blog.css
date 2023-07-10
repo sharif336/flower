@@ -11,20 +11,104 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin-left: 50px;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+    margin-right: 200px;
+
+
+
+}
+
+.banner-description {
+    font-size: 18px;
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
+    margin-left: 50px;
 }
 
 
 
 
-
-
-
-.banner{
+.banner {
     padding: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
-.banner .banner-picture{
+
+.banner .banner-picture {
     width: 635px;
+
+}
+
+.bonous-section {
+    padding: 130px;
+    text-align: center;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 3px;
+    text-align: center;
+
+}
+
+.section-description {
+    margin-bottom: 25px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.first-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 50px;
+
+}
+
+.flower-name {
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.second-flower {
+    border-radius: 600px 600px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 50px;
+    
+}
+
+.third-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-left: 50px;
+}
+.flower{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 100px;
+    
+}
+.about{
+    padding: 130px;
+    background-color: rgb(123, 190, 190);
+    margin: 100px;
+    border-radius: 10px;
+    text-align: center;
 }
