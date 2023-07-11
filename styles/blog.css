@@ -33,9 +33,9 @@
     font-weight: 400;
 }
 
-main {
-    margin: 0 auto;
-}
+ main {
+    
+ }
 
 .about-info-container {
     display: flex;
@@ -90,6 +90,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1922px;
 
 }
 
