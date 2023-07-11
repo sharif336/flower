@@ -207,15 +207,18 @@ footer {
     margin-top: 10px;
 
 }
-#section-description-id{
+
+#section-description-id {
     padding: 10px 150px;
 }
-.pictures-container{
+
+.pictures-container {
     display: flex;
     gap: 10px;
-    
+
 }
-.skill{
+
+.skill {
     padding: 5px;
     border-radius: 5px;
     background: #f4f1f1;
@@ -223,19 +226,20 @@ footer {
 }
 
 
-.pictures-container-1{
+.pictures-container-1 {
     display: flex;
     align-items: center;
-    justify-content: baseline;
+    justify-content: space-around;
 }
 
-.deals-container{
-    
+.deals-container {
+
     background-image: url('../styles/f.png');
     padding: 30px 30px 150px;
     margin-top: 130px;
 }
-.deals{
+
+.deals {
     background-color: #ffffff;
     margin-top: 100px;
     margin-bottom: 0;
@@ -244,12 +248,14 @@ footer {
     text-align: center;
     padding: 0px;
 }
-#input{
+
+#input {
     padding: 20px 20px;
     border: 0;
     background-color: #FFF;
 }
-.main-deals{
+
+.main-deals {
     background-image: url('../styles/f.png');
     background-repeat: repeat-x;
     padding: 200px 200px 200px 200px;
@@ -257,4 +263,35 @@ footer {
     margin-bottom: none;
     margin-left: none;
     margin-right: none;
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.bonous-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+   
+    
+
+}
+
+.flower-5 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-6 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-7 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
